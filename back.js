@@ -1,3 +1,10 @@
+const questionsGlobal = [
+    new Question("Javascript supports", ["Functions", "XHTML", "CSS", "XML"], "Functions"),
+    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
+    new Question("What is not a Javascript", ["Python script", "JQuery", "Django", "NodeJS"], "Django"),
+    new Question("What is used for connecting to a database?", ["PHP", "HTML", "JS", "All"], "PHP")
+];
+
 class Quiz {
     constructor(questionsGlobal) {
         this.questions = questionsGlobal;
@@ -28,13 +35,6 @@ class Question {
         this.answer = answer;
     }
 }
-
-const questionsGlobal = [
-    new Question("Javascript supports", ["Functions", "XHTML", "CSS", "XML"], "Functions"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("What is not a Javascript", ["Python script", "JQuery", "Django", "NodeJS"], "Django"),
-    new Question("What is used for connecting to a database?", ["PHP", "HTML", "JS", "All"], "PHP")
-];
 
 function populate() {
     if (quiz.isQuizEnded()) {
