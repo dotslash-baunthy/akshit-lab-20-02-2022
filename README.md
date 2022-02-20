@@ -6,4 +6,4 @@ Answers to questions are -
 
 These answers could be wrong. They are here only to show which question has what answer.
 >* If in the future, questions are ever added to this quiz, **DO NOT** forget to add them here.
->* In the main code, you'd want to add them to the *questionsGlobal* const variable as well.
+>* In the main code, you'd want to add them to the *questionsGlobal* const variable (JS) as well.
