@@ -1,3 +1,11 @@
+class Question {
+    constructor(question, choices, answer) {
+        this.question = question;
+        this.choices = choices;
+        this.answer = answer;
+    }
+}
+
 const questionsGlobal = [
     new Question("Javascript supports", ["Functions", "XHTML", "CSS", "XML"], "Functions"),
     new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
@@ -26,14 +34,6 @@ Quiz.prototype.getAnswerByIndex = function (userAnswer) {
 
 Quiz.prototype.isQuizEnded = function () {
     return this.questionIndex === this.questions.length;
-}
-
-class Question {
-    constructor(question, choices, answer) {
-        this.question = question;
-        this.choices = choices;
-        this.answer = answer;
-    }
 }
 
 function populate() {
