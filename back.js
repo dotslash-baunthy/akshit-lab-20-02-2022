@@ -9,7 +9,7 @@ class Question {
 const questionsGlobal = [
     new Question("Javascript supports which of the following?", ["Functions", "XHTML", "CSS", "XML"], "Functions"),
     new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("What is not a Javascript?", ["Python script", "JQuery", "Django", "NodeJS"], "Django"),
+    new Question("What is not a Javascript?", ["Python script", "JQuery", "Django", "NodeJS"], "Python script"),
     new Question("What is used for connecting to a database?", ["PHP", "HTML", "JS", "All"], "PHP")
 ];
 
