@@ -5,5 +5,5 @@ Answers to questions are -
 4. What is used for connecting to a database? PHP.
 
 These answers could be wrong. They are here only to show what matches what.
->If in the future, questions are ever added to this quiz, **do not** forget to add them here as well.
+>If in the future, questions are ever added to this quiz, **DO NOT** forget to add them here as well.
 >In the main code, you'd want to add them to the *questionsGlobal* const variable.
